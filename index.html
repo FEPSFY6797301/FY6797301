@@ -364,12 +364,15 @@ p.ex1 {
   
 </script>
 
+<body>
+  
   <div id="slide-container">
     <img id="slide" src="Slide1.jpg" style="width:100%; max-width:800px;">
 
  <div class="button-container">
    <button class="button" onclick="prevSlide()">Previous</button>
    <button class="button" onclick="nextSlide()">Next</button>
+ </div>
 
  <div class="button-container">
    <button class="button" onclick="showSlideNumber(1)">1</button>
@@ -379,6 +382,8 @@ p.ex1 {
    <button class="button" onclick="showSlideNumber(5)">5</button>
  </div>
 
+ </body>
+   
 <style>
 
   #slide-container {
@@ -388,7 +393,7 @@ p.ex1 {
 
   .button-container {
     position: abolute;
-    bottom: 0:
+    bottom: 0;
     left: 50%;
     transform: translate(-50%);
     margin-bottom: -100px;
@@ -398,7 +403,7 @@ p.ex1 {
    padding: 10px 20px;
    background-color: #4CAF50;
    color: white;
-   border: none:
+   border: none;
    border-radius: 5px;
    font-size: 16px;
    cursor: pointer;
